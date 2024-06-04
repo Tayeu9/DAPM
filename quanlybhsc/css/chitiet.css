@@ -1,0 +1,161 @@
+a {
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed; 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul.main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.main-menu li {
+    margin: 0 15px;
+}
+
+nav ul.main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+        align-items: center;
+}
+
+.sidebar {
+  
+    width: 15%;
+    background-color: #f4f4f4;
+    
+}
+.sidebar ul {
+    position: fixed; 
+    top: 50px;
+    width: 15%;
+    
+}
+.sidebar ul.side-menu {
+   
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul.side-menu li {
+   
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sidebar ul.side-menu li:hover {
+   
+    background-color: aqua;
+}
+.sidebar ul.side-menu li a {
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    width: 85%; 
+    padding: 15px;
+    overflow-y: auto; 
+    margin-top: 50px;
+}
+.frame {
+    display: flex;
+}
+.thongtin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.thongtin img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: solid 0.5px aqua;
+}
+.thongtin2 {
+    font-weight: bold;
+}
+.btsua {
+    background-color: rgb(143, 16, 10);
+    border: none;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+.khung {
+    display: flex;
+    width: 100%;
+}
+.anh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+   
+}
+.anh img {
+    height: 300px;
+    width: 250px;
+    border: #333 solid 1px;
+}
+.thongtinchitiet {
+    width: 60%;
+    
+}
+td {
+    padding: 10px 10px;
+}
+td button {
+    height: 35px;
+    width: 80px;
+    border: none;
+    background-color: rgb(39, 122, 53);
+    color: #f4f4f4;
+    border-radius: 10px;
+}
+td button:hover {
+    background-color: rgb(26, 81, 35);
+}
+td img {
+    width: 40px;
+    height: 40px;
+}
+.noidung {
+    padding-left: 60px;
+    max-width: 350px;
+    height: auto;
+    word-wrap: break-word;
+}

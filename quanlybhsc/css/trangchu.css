@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul.main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.main-menu li {
+    margin: 0 15px;
+}
+
+nav ul.main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    background-color:white;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+    
+  
+}
+
+.sidebar ul.side-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul.side-menu li {
+    width: 80%;
+    padding: 20px;
+    border-bottom-right-radius:25px ;
+    transition: background-color 0.3s ease, border-right 0.3s ease;
+}
+.sidebar ul.side-menu li:hover {
+
+    background-color: #57a0ee;
+    color: #ffffff;
+    border-left: solid 4px white ;
+}
+.sidebar ul.side-menu li:hover a {
+    color: white; 
+}
+.sidebar ul.side-menu li a {
+    font-weight: bold;
+    color: #35a1df;
+    text-decoration: none;
+
+   
+}
+
+main {
+    width: 80%;
+    padding: 15px;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main p {
+    font-size: 16px;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.large-button {
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #7bb2ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.large-button:hover {
+    background-color: #0056b3;
+}
+.button-container img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.thongtin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.thongtin img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: solid 0.5px aqua;
+}
+.thongtin2 {
+    font-weight: bold;
+}
+
+.khung {
+    display: flex;
+    width: 100%;
+}
+.ft {
+    width: 100%;
+    height: 60px;
+    background-color:#57a0ee;
+}
